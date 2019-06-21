@@ -10,7 +10,7 @@ Usage:
 Implemented following set of APIs:
 
 | Method        | End-Point           						              | Purpose  |
-| ------------- |:---------------------------------------------:| --------------------------:|
+| ------------- |-----------------------------------------------| -------------------------- |
 | GET   		    | customers           													| Get specific customers Data by his/her ID |
 | GET		        | customers/:id                   							| Get orders for specified customer |
 | GET           | customers/:id/orders            							| Get all the orders Data |
