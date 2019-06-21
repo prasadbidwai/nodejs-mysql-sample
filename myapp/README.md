@@ -8,13 +8,16 @@ NodeJS-MySQL using express framework
 Usage:
 -----
 Implemented following set of APIs:
-1. GET customers/                        	         [Get all Customers Data]            
-2. GET customers/:id                            	 [Get specific customers Data by his/her ID]
-2. GET customers/:id/orders                       	 [Get orders for specified customer]
-3. GET orders                                     	 [Get all the orders Data]
-4. GET orders/:beginDate/:endDate                        [Get the orders in between date range]  
-5. GET orders/:beginDate/:endDate?groupBy                [Get the orders in between date range & group by day/week/month]  
-6. GET orders/csv/:beginDate/:endDate                    [Get the orders in between date range in CSV]  
+
+| Method        | End-Point           						              | Purpose  |
+| ------------- |:---------------------------------------------:| --------------------------:|
+| GET   		    | customers           													| Get specific customers Data by his/her ID |
+| GET		        | customers/:id                   							| Get orders for specified customer |
+| GET           | customers/:id/orders            							| Get all the orders Data |
+| GET   		    | orders           															| Get specific customers Data by his/her ID |
+| GET		        | orders/:beginDate/:endDate                    | Get orders for specified customer |
+| GET           | orders/:beginDate/:endDate?groupBy            | Get all the orders Data |
+| GET           | orders/csv/:beginDate/:endDate                | Get the orders in between date range in CSV |
 
 Technologies: 
 -------------
